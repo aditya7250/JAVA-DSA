@@ -1,20 +1,18 @@
-  package Apnacollege_Array;
+package Function_problem;
 
 public class Problem_3 {
-	public static void main(String [] args) {
-		int arr[] = {11,223,43,54};
-//	
-//		a[0]=10;
-//		a[1]=20;
-//	    a[2]=30;
-//		a[3]=40;
-//	    a[4]= 50;
-//	    for (int i =0; i<a.length; i++)
-//	    System.out.println(a[i]);
-//	}
-//}
-//	 
-    for(int i:arr) 
-	  System.out.println(i);
- }
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+        System.out.println("Hello Sweety");
+         int  a = 5;
+         int  b = 3;
+         add (a,b);
+        System.out.println("Bye");
 	}
+	   public static void add(int a , int b) {
+		   int c = a+b;		   
+		   System.out.println(c);
+	   }
+
+}

@@ -1,24 +1,25 @@
-package Apnacollege_Array;
-
-import java.util.Scanner;
+package Function_problem;
 
 public class Problem_1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-  // int [] marks = new int[3];
-  // int marks[]= new int [3];
-   
-   //marks[0]=95;//physics
-   //marks[1]=90;//chemistry
-   //marks[2]=85;//math
-   
-		Scanner sc = new Scanner(System.in);
-		int size= sc.nextInt();
-		int numbers[]= new int[size];
-   for(int i =0; i<size; i++) {
-       System.out.println(numbers[i]);
+		System.out.println("Hello Everyone");
+	    addtwonumber();
+	    System.out.println("bye");
+	    subtwonumber();
 	}
-}
-
+	  public static void addtwonumber() {
+	  int a = 5;
+	  int b = 5;
+	  int c = a+b;
+	  System.out.println(c);
+	}
+      public static void subtwonumber() {
+      int a = 20;
+      int b = 10;
+      int c = a-b;
+      System.out.println(c);
+     
+      }
 }
